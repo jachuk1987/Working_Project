@@ -1,6 +1,6 @@
 import React from "react";
 
-cons App = () => {
+const App = () => {
   return (
     <div>
 

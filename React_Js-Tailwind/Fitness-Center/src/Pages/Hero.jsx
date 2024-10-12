@@ -46,7 +46,7 @@ const Hero = () => {
                     className="mySwiper"
                 >
                     <SwiperSlide
-                        className="w-full h-[70vh] relative"
+                        className="w-full h-[70vh] relative bg-indigo-600"
                         style={{ backgroundRepeat is not defined
                             backgroundImage: "url('./images/hero-1.jpg')", 
                             backgroundSize:"cover",

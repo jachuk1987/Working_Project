@@ -45,7 +45,14 @@ const Hero = () => {
                     modules={[Autoplay, Navigation]}
                     className="mySwiper"
                 >
-                    <SwiperSlide>Slide 1</SwiperSlide>
+                    <SwiperSlide
+                    className="w-full h-[70vh] relative"
+                    style={{backgroundImage: "url('./images/hero-1.jpg')", backgroundSize:
+                        "cover", }}
+                    >
+                    Slide 1
+                    </SwiperSlide>
+
                     <SwiperSlide>Slide 2</SwiperSlide>
                     <SwiperSlide>Slide 3</SwiperSlide>
                     <SwiperSlide>Slide 4</SwiperSlide>

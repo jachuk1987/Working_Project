@@ -46,11 +46,15 @@ const Hero = () => {
                     className="mySwiper"
                 >
                     <SwiperSlide
-                    className="w-full h-[70vh] relative"
-                    style={{backgroundImage: "url('./images/hero-1.jpg')", backgroundSize:
-                        "cover", }}
+                        className="w-full h-[70vh] relative"
+                        style={{ backgroundRepeat is not defined
+                            backgroundImage: "url('./images/hero-1.jpg')", 
+                            backgroundSize:"cover",
+                            backgroundPosition: "center",
+                            backgroundRepeat: "no-repeat"
+                        }}
                     >
-                    Slide 1
+                        Slide 1
                     </SwiperSlide>
 
                     <SwiperSlide>Slide 2</SwiperSlide>

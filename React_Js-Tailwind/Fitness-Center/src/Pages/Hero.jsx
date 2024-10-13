@@ -5,6 +5,7 @@ import "swiper/css/pagination";
 import "swiper/css/navigation";
 
 import { Autoplay, Navigation } from "swiper/modules";
+import PrimaryBtn from "../Components/Button/PrimaryBtn";
 const Hero = () => {
 
     const swiperData = [
@@ -68,6 +69,7 @@ const Hero = () => {
                         </div>
                     </SwiperSlide>
                 </Swiper>
+
             </div>
         </>
     )

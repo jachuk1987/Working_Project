@@ -33,20 +33,19 @@ const Hero = () => {
     return (
         <>
             <div className="w-full h-auto">
-                <Swiper spaceBetween={30} centeredSlides={true}
+                <Swiper spaceBetween={30}
+                    centeredSlides={true}
+                    loop = {true}
                     autoplay={{
                         delay: 2500,
                         disableOnInteraction: false,
-                    }}
-                    pagination={{
-                        clickable: true,
                     }}
                     navigation={true}
                     modules={[Autoplay, Navigation]}
                     className="mySwiper"
                 >
                     <SwiperSlide
-                        className="w-full h-[70vh] relative bg-indigo-600"
+                        className="w-full h-[70vh]"
                         style={{
                             backgroundImage: "url('./images/hero-1.jpg')",
                             backgroundSize: "cover",
@@ -56,15 +55,6 @@ const Hero = () => {
                     >
                         Slide 1
                     </SwiperSlide>
-
-                    {/* <SwiperSlide>Slide 2</SwiperSlide>
-                    <SwiperSlide>Slide 3</SwiperSlide>
-                    <SwiperSlide>Slide 4</SwiperSlide>
-                    <SwiperSlide>Slide 5</SwiperSlide>
-                    <SwiperSlide>Slide 6</SwiperSlide>
-                    <SwiperSlide>Slide 7</SwiperSlide>
-                    <SwiperSlide>Slide 8</SwiperSlide>
-                    <SwiperSlide>Slide 9</SwiperSlide> */}
                 </Swiper>
             </div>
         </>

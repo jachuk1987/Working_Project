@@ -53,7 +53,12 @@ const Hero = () => {
                             backgroundRepeat: "no-repeat"
                         }}
                     >
-                        Slide 1
+                        <div className="w-full h-full bg-black/80 absoluter top-0 left-0 -z-10"></div>
+                        <div className="w-full h-full flex items-center justify-center flex-col z-10 lg:px-24 md:px-16 sm:px-6 px-4">
+                            <h5 className="lg:text-4x1 md:text-3x1 sm:text-2x1 text-2x1 text-indigo-400 font-semibold mb-2 uppercase">
+                            Keep your body
+                            </h5>
+                        </div>
                     </SwiperSlide>
                 </Swiper>
             </div>

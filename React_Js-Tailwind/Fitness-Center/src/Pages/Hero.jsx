@@ -64,6 +64,7 @@ const Hero = () => {
                             <p className="lg:text-lg md:text-base sm:text-base text-gray-500 font-medium mb-6 text-center">
                                 Get ready to burn off some serious fat with our high quality products.
                             </p>
+                            <PrimaryBtn className="">Get Started</PrimaryBtn>
                         </div>
                     </SwiperSlide>
                 </Swiper>

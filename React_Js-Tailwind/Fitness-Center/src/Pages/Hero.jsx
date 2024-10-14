@@ -73,7 +73,8 @@ const Hero = () => {
                 <div className="w-full h-auto flex items-center lg:justify-between
                 md:justify-between sm:justify-center justify-center lg:gap-7 md:gap-7 sm:gap-5
                 gap-5 lg:px-24 md:px-16 sm:px-6 px-6 mt-6 flex-wrap">
-                    <div className=""></div>
+                    <div className="flex items-center justify-center flex-col lg:w-fit md:w-[48%]
+                    sm:w-[48%] w-full lg:py-6 md:py-7 sm:"></div>
                 </div>
             </div>
         </>

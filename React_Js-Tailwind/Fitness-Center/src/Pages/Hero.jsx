@@ -34,7 +34,8 @@ const Hero = () => {
     return (
         <>
             <div className="w-full h-auto">
-                <Swiper spaceBetween={30}
+                <Swiper 
+                spaceBetween={30}
                     centeredSlides={true}
                     loop = {true}
                     autoplay={{

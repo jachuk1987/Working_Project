@@ -12,6 +12,6 @@ const PrimaryLink = ({ link, children, className }) => {
       </Link>
     </>
   );
-}
+};
 
 export default PrimaryLink;

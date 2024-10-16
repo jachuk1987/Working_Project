@@ -79,7 +79,11 @@ const Hero = () => {
                 gap-5 lg:px-24 md:px-16 sm:px-6 px-6 mt-6 flex-wrap">
                     <div className="flex items-center justify-center flex-col lg:w-fit md:w-[48%]
                     sm:w-[48%] w-full lg:py-6 md:py-7 sm:py-8 py-9 px-10 bg-black/10 hover: bg-black/30
-                    rounded-md ease-out duration-700 cursor-pointer"></div>
+                    rounded-md ease-out duration-700 cursor-pointer">
+                        <h5 className="text-4x1 text-indigo-400 font-semibold mb-2 uppercase">
+                            1200+
+                            </h5>
+                    </div>
                 </div>
             </div>
         </>

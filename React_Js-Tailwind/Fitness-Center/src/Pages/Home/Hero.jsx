@@ -5,7 +5,7 @@ import "swiper/css/pagination";
 import "swiper/css/navigation";
 
 import { Autoplay, Navigation } from "swiper/modules";
-import PrimaryBtn from "../Components/Button/PrimaryBtn";
+import PrimaryBtn from "../../Components/Button/PrimaryBtn";
 const Hero = () => {
 
     const swiperData = [

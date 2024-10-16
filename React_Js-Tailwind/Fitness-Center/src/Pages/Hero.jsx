@@ -66,7 +66,7 @@ const Hero = () => {
                                 {data.title}
                             </h1>
                             <p className="lg:text-lg md:text-base sm:text-base text-gray-500 font-medium mb-6 text-center">
-                                Get ready to burn off some serious fat with our high quality products.
+                                {data.desc}
                             </p>
                             <PrimaryBtn className="lg:w-[15%] md:w-[35%] sm:w-[75%] w-[80%] h-14 mt-5 text-xl font-semibold rounded-full">Get Started</PrimaryBtn>
                         </div>

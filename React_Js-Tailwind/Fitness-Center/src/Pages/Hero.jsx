@@ -83,6 +83,7 @@ const Hero = () => {
                         <h5 className="text-4x1 text-indigo-400 font-semibold mb-2 uppercase">
                             1200+
                         </h5>
+                        <p className="text-lg text-gray-600 font-medium">Members</p>
                     </div>
                 </div>
             </div>

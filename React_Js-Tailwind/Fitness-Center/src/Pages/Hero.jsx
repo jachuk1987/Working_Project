@@ -63,7 +63,7 @@ const Hero = () => {
                             {data.slogan}
                             </h5>
                             <h1 className="lg:text-8x1 md:text-7x1 sm:text-5x1 text-5x1 font-bold text-white mb-4 uppercase">
-                                Burning
+                                {data.title}
                             </h1>
                             <p className="lg:text-lg md:text-base sm:text-base text-gray-500 font-medium mb-6 text-center">
                                 Get ready to burn off some serious fat with our high quality products.

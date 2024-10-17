@@ -7,7 +7,11 @@ const About = () => {
         md:py-14 sm:py-12 py-10 lg:px-16 sm:px-6 px-4 flex-wrap-reverse">
             <div className="lg:w-[38%] md:w-full sm:w-full h-auto relative
             overflow-hidden rounded-lg">
-
+                <img 
+                src="https://source.unsplash.com/random/?gym" 
+                alt="About image" 
+                className="w-full lg:h-[70vh] md:h-[68vh] sm:h-[60vh] h-[55vh] object-cover"
+                />
             </div>
         </div>
         </>

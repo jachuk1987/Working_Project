@@ -20,7 +20,7 @@ const About = () => {
                         <Dumbbell classname="w-4 h-4 -rotate-45 text-indigo-600"/>
                         About Us
                     </h6>
-                    <h1 className="lg:text-3x1 md:text-">
+                    <h1 className="lg:text-3x1 md:text-3x1 sm:text-2x1 text-2x1">
                         Effortless Strength, Timely Gains: Building Better Bodies, Faster
                     </h1>
                 </div>

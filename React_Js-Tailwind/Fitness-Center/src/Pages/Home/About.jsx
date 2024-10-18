@@ -24,7 +24,7 @@ const About = () => {
                     text-gray-200 mb-4 leading-normal lg:pe-5 md:pe-4 sm:pe-1 pe-0">
                         Effortless Strength, Timely Gains: Building Better Bodies, Faster
                     </h1>
-                    <p>
+                    <p className="">
                         Lorem ipsum dolor sit, amet consectetur adipisicing elit. Aliquid
                         corrupti eos, enim ipsum, consequuntur ab id possimus exercitationem
                         velit voluptas deserunt quibusdam hic harum, inventore perferendis

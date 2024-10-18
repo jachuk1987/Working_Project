@@ -27,6 +27,7 @@ const About = () => {
                     <p>
                         Lorem ipsum dolor sit, amet consectetur adipisicing elit. Aliquid
                         corrupti eos, enim ipsum, consequuntur ab id possimus exercitationem
+                        velit voluptas deserunt quibusdam hic harum, inv
                     </p>
                 </div>
             </div>

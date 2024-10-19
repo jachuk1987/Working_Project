@@ -12,6 +12,6 @@ const TertiaryLink = ({ link, children, className }) => {
       </Link>
     </>
   )
-};
+}
 
 export default TertiaryLink;

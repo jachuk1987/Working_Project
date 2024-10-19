@@ -12,6 +12,6 @@ const SecondaryLink = ({ link, children, className }) => {
       </Link>
     </>
   )
-};
+}
 
 export default SecondaryLink;

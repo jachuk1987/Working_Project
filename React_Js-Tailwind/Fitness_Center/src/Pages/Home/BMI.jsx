@@ -26,6 +26,15 @@ const BMI = () => {
                                 placeholder="Enter your Weight"
                             />
                         </div>
+                        <div className="lg:w-[25%] md:w-[40%] sm:w-[50%] w-full h-auto p-2">
+                            <Label htmlfor="height">Height (Cm)</Label>
+                            <Input
+                                id="height"
+                                name="height"
+                                type="text"
+                                placeholder="Enter your height"
+                            />
+                        </div>
                     </div>
                 </div>
             </div>

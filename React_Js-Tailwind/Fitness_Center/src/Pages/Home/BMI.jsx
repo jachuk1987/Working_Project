@@ -39,6 +39,8 @@ const BMI = () => {
                                 name="height"
                                 type="text"
                                 placeholder="Enter your height"
+                                value={height}
+                                onChange={(e) => setHeight(e.target.value)}
                             />
                         </div>
                     </div>

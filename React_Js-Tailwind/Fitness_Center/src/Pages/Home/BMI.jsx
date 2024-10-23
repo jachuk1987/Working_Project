@@ -2,11 +2,12 @@ import React, { useState } from "react";
 import { Dumbbell } from "lucide-react";
 import Label from "../../Components/Label/Label";
 import Input from "../../Components/Form/Input";
+import SecondaryBtn from "../../Components/Button/SecondaryBtn";
 
 const BMI = () => {
     const [weight, setWeight] = useState("");
     const [height, setHeight] = useState("");
-    const [bmi, setBMI] = useState("");
+    const [bmi, setBMI] = useState(null);
     return (
         <>
             <div className="w-full h-auto flex items-center lg:py-16 md:py-14 sm:py-12 py-10
@@ -27,6 +28,8 @@ const BMI = () => {
                                 name="weight"
                                 type="text"
                                 placeholder="Enter your Weight"
+                                value={weight}
+                                onChange={(e) => setWeight(e.target.value)}
                             />
                         </div>
                         <div className="lg:w-[20%] md:w-[35%] sm:w-[50%] w-full h-auto p-2">

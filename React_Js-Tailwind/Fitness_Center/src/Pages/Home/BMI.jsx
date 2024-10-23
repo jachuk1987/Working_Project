@@ -58,6 +58,13 @@ const BMI = () => {
                             </SecondaryBtn>
                         </div>
                     </div>
+                    {bmi ! == null && (
+                        <div className="bg-black.rounded-b-md px-6 py-2.5">
+                            <p className="text-indigo-600">
+                                Your BMI:- <span className="font-bold">{bmi}</span>
+                            </p>
+                        </div>
+                    )}
                 </div>
             </div>
         </>

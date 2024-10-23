@@ -8,9 +8,8 @@ const BMI = () => {
     const [weight, setWeight] = useState("");
     const [height, setHeight] = useState("");
     const [bmi, setBMI] = useState(null);
-
-    const calculateBMI =() => {
-        const bmi = (weight / ((height * height) / 10000)).toFixed(2);
+    const calculateBMI = () => {
+        const bmi=(weight/((height * height) / 10000)).toFixed(2);
         setBMI(bmi);
     }
     return (
@@ -50,15 +49,15 @@ const BMI = () => {
                         </div>
                         <div className="lg:w-[20%] md:w-[35%] sm:w-[50%] w-full h-auto p-2">
                             <SecondaryBtn
-                            type="submit"
-                            className="w-full h-11 justify-center"
-                            onClick={calculateBMI}
+                                type="submit"
+                                className="w-full h-11 justify-center"
+                                onClick={calculateBMI}
                             >
                                 Calculate BMI
                             </SecondaryBtn>
                         </div>
                     </div>
-                    {bmi ! == null && (
+                     { bmi  !== null && (
                         <div className="bg-black.rounded-b-md px-6 py-2.5">
                             <p className="text-indigo-600">
                                 Your BMI:- <span className="font-bold">{bmi}</span>

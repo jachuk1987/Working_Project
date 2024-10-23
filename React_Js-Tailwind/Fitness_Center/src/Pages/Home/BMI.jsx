@@ -8,6 +8,11 @@ const BMI = () => {
     const [weight, setWeight] = useState("");
     const [height, setHeight] = useState("");
     const [bmi, setBMI] = useState(null);
+
+    const calculateBMI =() => {
+        const bmi = (weight / ((height * height) / 10000)).toFixed(2);
+        setBMI(bmi);
+    }
     return (
         <>
             <div className="w-full h-auto flex items-center lg:py-16 md:py-14 sm:py-12 py-10
@@ -42,6 +47,15 @@ const BMI = () => {
                                 value={height}
                                 onChange={(e) => setHeight(e.target.value)}
                             />
+                        </div>
+                        <div className="lg:w-[20%] md:w-[35%] sm:w-[50%] w-full h-auto p-2">
+                            <SecondaryBtn
+                            type="submit"
+                            className="w-full h-11 justify-center"
+                            onClick={calculateBMI}
+                            >
+                                Calculate BMI
+                            </SecondaryBtn>
                         </div>
                     </div>
                 </div>

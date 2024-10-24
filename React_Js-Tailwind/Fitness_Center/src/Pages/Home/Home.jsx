@@ -3,6 +3,10 @@ import Hero from "./Hero";
 import About from "./About";
 import BMI from "./BMI";
 import Services from "./Services";
+import Banner from "./Banner";
+import Trainers from "./Trainers";
+import Popular from "./Popular";
+import PrincingPlan from "./PrincingPlan";
 
 const Home = () => {
     return (
@@ -12,6 +16,10 @@ const Home = () => {
                 <About />
                 <BMI />
                 <Services />
+                <Banner />
+                <Trainers />
+                <Popular />
+                <PrincingPlan />
             </div>
         </>
     )

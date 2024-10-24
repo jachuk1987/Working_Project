@@ -48,7 +48,18 @@ const Footer = () => {
                     <div className="lg:w-[65%] md:w-[65%] sm:w-full w-full h-auto p-2 
                     flex items-center lg:justify-end md:justify-end sm:justify-center 
                     flex-wrap gap-5">
-                        
+                        <div className="lg:w-[30%] md:w-[48%] sm:w-[48%] w-full h-auto flex 
+                        items-center flex-col justify-center">
+                            <h2 className="text-lg text-gray-200 font-medium mb-4">
+                                Services
+                            </h2>
+                        </div>
+                        <div className="lg:w-[30%] md:w-[48%] sm:w-[48%] w-full h-auto flex 
+                        items-center flex-col justify-center">
+                            <h2 className="text-lg text-gray-200 font-medium mb-4">
+                                Quick Link
+                            </h2>
+                        </div>
                     </div>
                 </div>
             </div>

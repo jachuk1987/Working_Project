@@ -1,5 +1,6 @@
-import { Dumbbell } from "lucide-react";
 import React from "react";
+import { Dumbbell } from "lucide-react";
+import Input from "../../Components/Form/Input";
 
 const Contact = () => {
     return (
@@ -15,7 +16,33 @@ const Contact = () => {
                     <div className="w-full h-auto flex items-center lg:gap-x-8 md:gap-x-4 
                     sm:gap-x-4 gap-x-3 lg:gap-y-8 md:gap-y-8 sm:gap-y-5 gap-y-4 lg:flex-nowrap
                     md:flex-nowrap sm:flex-wrap flex-wrap">
-                        
+                        <div className="lg:w-[32%] md:w-[32%] sm:w-[48%] w-full h-auto">
+                            <Input 
+                            type="text"
+                            id="fullname"
+                            name="fullname"
+                            className="w-full h-12 px-4"
+                            placeholder="Enter your fullname"
+                            />
+                        </div>
+                        <div className="lg:w-[32%] md:w-[32%] sm:w-[48%] w-full h-auto">
+                            <Input 
+                            type="email"
+                            id="email"
+                            name="email"
+                            className="w-full h-12 px-4"
+                            placeholder="Enter your email"
+                            />
+                        </div>
+                        <div className="lg:w-[32%] md:w-[32%] sm:w-[48%] w-full h-auto">
+                            <Input 
+                            type="text"
+                            id="subject"
+                            name="subject"
+                            className="w-full h-12 px-4"
+                            placeholder="Enter your subject"
+                            />
+                        </div>
                     </div>
                 </div>
             </div>

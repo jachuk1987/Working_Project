@@ -53,6 +53,11 @@ const Footer = () => {
                             <h2 className="text-lg text-gray-200 font-medium mb-4">
                                 Services
                             </h2>
+                            <div className="w-full h-auto">
+                                <ul className="w-full h-auto space-y-2">
+                                    li.w-full.h-auto.text-gray-400.hover:text-indigo-600.ease-out.duration-300
+                                </ul>
+                            </div>
                         </div>
                         <div className="lg:w-[30%] md:w-[48%] sm:w-[48%] w-full h-auto flex 
                         items-center flex-col justify-center">

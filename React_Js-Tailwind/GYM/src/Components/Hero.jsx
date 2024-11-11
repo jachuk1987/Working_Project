@@ -14,8 +14,8 @@ const Hero = () => {
     },[])
 
     return (
-        <section>
-            
+        <section id="hero" className="w-full py-10 mx-auto h-fit flex">
+
         </section>
     )
 }

@@ -18,7 +18,7 @@ const About = () => {
 
     return (
         <>
-            <section>
+            <section id="about" className="">
 
             </section>
         </>

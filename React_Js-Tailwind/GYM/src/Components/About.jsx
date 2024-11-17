@@ -18,7 +18,7 @@ const About = () => {
 
     return (
         <>
-            <section id="about" className="">
+            <section id="about" className="w-[75%] mx-auto md:py-20 py-10 flex md:flex-row flex-col">
 
             </section>
         </>

@@ -22,6 +22,7 @@ const About = () => {
                 <div className="md:w-[50%] w-full flex-col justify-center items-start gap-6">
                     <h1 data-aos="zoom-in" data-aos-delay="" className="text-red-600 md:text-7x1 text-6x1 font-semibold">JOIN TODAY</h1>
                     <p data-aos="zoom-in" data-aos-delay="200" className="text-lg text-slate-600 text-justify">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Iusto voluptate repellat, nam reiciendis nostrum sint.</p>
+                    <button data-aos="zoom-in" data-aos-delay="600" className="px-8 py-4 bg-blue-900 hover:bg-red-500 text-white font-semibold">BOOK NOW</button>
                 </div>
             </section>
         </>

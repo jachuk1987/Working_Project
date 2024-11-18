@@ -42,6 +42,9 @@ const About = () => {
                         </div>
                     </div>
                 </div>
+                <div className="md:w-[50%] w-full h-fit relative">
+                    <img src={aboutimg} alt="" />
+                </div>
             </section>
         </>
     )

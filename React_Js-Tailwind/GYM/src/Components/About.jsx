@@ -43,7 +43,10 @@ const About = () => {
                     </div>
                 </div>
                 <div className="md:w-[50%] w-full h-fit relative">
-                    <img src={aboutimg} alt="" />
+                    <img data-aos="zoom-in" data-aos-delay="200" src={aboutimg} alt="about image" width={600} height={600} />
+                    <div data-aos="slide-up" data-aos-delay="400" className="bg-red-500 md:w-[90%] w-full text-white flex flex-col justify-center items-start gap-4 md:p-8 p-6 absolute">
+
+                    </div>
                 </div>
             </section>
         </>

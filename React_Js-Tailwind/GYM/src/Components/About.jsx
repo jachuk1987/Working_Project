@@ -20,7 +20,7 @@ const About = () => {
         <>
             <section id="about" className="w-[75%] mx-auto md:py-20 py-10 flex md:flex-row flex-col justify-between items-start gap-20">
                 <div className="md:w-[50%] w-full flex-col justify-center items-start gap-6">
-                    <h1>JOIN TODAY</h1>
+                    <h1 data-aos="zoom-in" data-aos-delay="" className="text-red-600 md:text-7x1 text-6x1">JOIN TODAY</h1>
                 </div>
             </section>
         </>

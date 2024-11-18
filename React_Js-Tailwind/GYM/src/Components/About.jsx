@@ -26,10 +26,18 @@ const About = () => {
                     <div data-aos="zoom-in" data-aos-delay="800" id="list-infos" className="flex md:flex-row flex-col justify-center md:items-center items-start gap-6 md:pr-10">
                         <div>
                             <ul className="flex flex-col justify-center items-start gap-2">
-                                <li className="flex justify-center items-center gap-2"><span><FaCheck /></span></li>
-                                <li></li>
-                                <li></li>
-                                <li></li>
+                                <li className="flex justify-center items-center gap-2"><span><FaCheck /></span><span className="text-slate-600">Access to locker rooms</span></li>
+                                <li className="flex justify-center items-center gap-2"><span><FaCheck /></span><span className="text-slate-600">Access to locker rooms</span></li>
+                                <li className="flex justify-center items-center gap-2"><span><FaCheck /></span><span className="text-slate-600">Access to locker rooms</span></li>
+                                <li className="flex justify-center items-center gap-2"><span><FaCheck /></span><span className="text-slate-600">Access to locker rooms</span></li>
+                            </ul>
+                        </div>
+                        <div>
+                            <ul className="flex flex-col justify-center items-start gap-2">
+                                <li className="flex justify-center items-center gap-2"><span><FaCheck /></span><span className="text-slate-600">Access to locker rooms</span></li>
+                                <li className="flex justify-center items-center gap-2"><span><FaCheck /></span><span className="text-slate-600">Access to locker rooms</span></li>
+                                <li className="flex justify-center items-center gap-2"><span><FaCheck /></span><span className="text-slate-600">Access to locker rooms</span></li>
+                                <li className="flex justify-center items-center gap-2"><span><FaCheck /></span><span className="text-slate-600">Access to locker rooms</span></li>
                             </ul>
                         </div>
                     </div>

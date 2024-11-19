@@ -46,9 +46,13 @@ const About = () => {
                     <img data-aos="zoom-in" data-aos-delay="200" src={aboutimg} alt="about image" width={600} height={600} />
                     <div data-aos="slide-up" data-aos-delay="400" className="bg-red-500 md:w-[90%] w-full text-white flex flex-col justify-center items-start gap-4 md:p-8 p-6 absolute md:-left[100px] md:right-[-100px] md:bottom-[-180px] mt-8 z-10">
                         <FaQuoteLeft className="md:size-14 size-10" />
-                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Non, accusantium?</p>
+                        <p className="md:text-3x1 text-2x1">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Non, accusantium?</p>
                     </div>
                 </div>
+            </section>
+
+            <section data-aos="zoom-in" data-aos-delay="200" id="banner" className="w-full md:h-[600px] h-[300px] flex justify-end items-end p-10 md:mt-24 bg-cover bg-center mt-[400px]" style={{backgroundImage:`url(${banner})`}}>
+
             </section>
         </>
     )

@@ -23,7 +23,9 @@ const Services = () => {
             <section id="services">
                 <div className="w-full flex flex-col justify-center items-center bg-blue-900 h-fit">
                     <div className="md:w-[85%] w-full mx-auto flex md:flex-row flex-col justify-center items-start md:gap-6 gap-20 md:p-20 p-10 mt-[200px] z-20">
+                        <div data-aos="slide-up" data-aos-delay="400" className="flex flex-col justify-center items-center gap-6">
 
+                        </div>
                     </div>
 
                 </div>

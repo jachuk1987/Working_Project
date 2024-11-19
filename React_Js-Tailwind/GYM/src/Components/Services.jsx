@@ -20,6 +20,14 @@ const Services = () => {
             <section className="w-full bg-red-500 py-20 z-10">
                 <h1 data-aos="zoom-in" data-aos-delay="200" className="text-white md:text-6x1 text-5x1 font-semibold text-center pb-32">OUR SERVICES</h1>
             </section>
+            <section id="services">
+                <div className="w-full flex flex-col justify-center items-center bg-blue-900 h-fit">
+                    <div className="md:w-[85%] w-full mx-auto flex md:flex-row flex-col justify-center items-start md:gap-6 gap-20 md:p-20 p-10 mt-[200px] z-20">
+
+                    </div>
+
+                </div>
+            </section>
         </>
     )
 }

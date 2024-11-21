@@ -20,7 +20,21 @@ const Teams = () => {
     return (
         <section id="team" className="w-[80%] mx-auto py-20 h-fit flex flex-col justify-center items-center gap-8">
             <div id="gallery" className="flex md:flex-row flex-col justify-center items-center gap-6">
-                <img data-aos="slide-up" data-aos-delay= "200" src={client1} alt="teams" />
+                <img data-aos="slide-up" data-aos-delay= "200" src={client1} alt="teams" width={300} height={300} className="w-[300px] h-[250px]" />
+                <img data-aos="slide-up" data-aos-delay= "200" src={client2} alt="teams" width={300} height={300} className="w-[300px] h-[250px]" />
+                <img data-aos="slide-up" data-aos-delay= "200" src={client3} alt="teams" width={300} height={300} className="w-[300px] h-[250px]" />
+                <img data-aos="slide-up" data-aos-delay= "200" src={client4} alt="teams" width={300} height={300} className="w-[300px] h-[250px]" />
+            </div>
+
+            <div id="social-links" className="flex justify-center items-center gap-6">
+                <FaFacebook data-aos="zoom-in" data-aos-delay="600" className="size-10 transform hover:scale-105 transition-transform duration-300 cursor-pointer" />
+                <FaFacebook data-aos="zoom-in" data-aos-delay="600" className="size-10 transform hover:scale-105 transition-transform duration-300 cursor-pointer" />
+                <FaFacebook data-aos="zoom-in" data-aos-delay="600" className="size-10 transform hover:scale-105 transition-transform duration-300 cursor-pointer" />
+            </div>
+
+            <div className="flex flex-col justify-center items-center gap-8">
+                <h1 className="text-5x1 text-red-500 font-extralight text-center">OUR PERFECT <span className="font-bold">TEAM</span> </h1>
+                <p data-aos="zoom-in" >Lorem ipsum dolor sit amet consectetur adipisicing elit. Soluta, a?</p>
             </div>
         </section>
     )

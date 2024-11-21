@@ -4,7 +4,7 @@ import { FaCheck } from "react-icons/fa6";
 import { FaQuoteLeft } from "react-icons/fa";
 import banner from "../assets/banner.jpg";
 import AOS from "aos";
-import 'aos/dist/aos.css'
+import 'aos/dist/aos.css';
 
 const About = () => {
 

@@ -27,6 +27,19 @@ const Services = () => {
                             <img src={phil1} alt="image" width={300} height={300} />
                             <h1 className="text-4x1 text-white font-semibold">Body building</h1>
                             <p className="text-lg text-slate-300 text-center">Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptates, reiciendis.</p>
+                            <button className="px-6 py-3 bg-red-500 text-white font-semibold transform hover:scale-105 transition-transform duration-300 cursor-pointer">VIEW MORE</button>
+                        </div>
+                        <div data-aos="slide-up" data-aos-delay="400" className="flex flex-col justify-center items-center gap-6">
+                            <img src={phil2} alt="image" width={300} height={300} />
+                            <h1 className="text-4x1 text-white font-semibold">Body building</h1>
+                            <p className="text-lg text-slate-300 text-center">Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptates, reiciendis.</p>
+                            <button className="px-6 py-3 bg-red-500 text-white font-semibold transform hover:scale-105 transition-transform duration-300 cursor-pointer">VIEW MORE</button>
+                        </div>
+                        <div data-aos="slide-up" data-aos-delay="400" className="flex flex-col justify-center items-center gap-6">
+                            <img src={phil3} alt="image" width={300} height={300} />
+                            <h1 className="text-4x1 text-white font-semibold">Body building</h1>
+                            <p className="text-lg text-slate-300 text-center">Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptates, reiciendis.</p>
+                            <button className="px-6 py-3 bg-red-500 text-white font-semibold transform hover:scale-105 transition-transform duration-300 cursor-pointer">VIEW MORE</button>
                         </div>
                     </div>
 

@@ -35,6 +35,7 @@ const Teams = () => {
             <div className="flex flex-col justify-center items-center gap-8">
                 <h1 className="text-5x1 text-red-500 font-extralight text-center">OUR PERFECT <span className="font-bold">TEAM</span> </h1>
                 <p data-aos="zoom-in" data-aos-delay="400" className="text-center text-lg" >Lorem ipsum dolor sit amet consectetur adipisicing elit. Soluta, a?</p>
+                <button data-aos="zoom-in" data-aos-delay="600" className="px-6 py-3 border-2 border-black font-semibold" >VIEW MORE</button>
             </div>
         </section>
     )

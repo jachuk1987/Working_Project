@@ -52,6 +52,7 @@ const Contact = () => {
 
                         </div>
                     </div>
+                    <button className="px-6 py-3 bg-red-500 text-white font-semibold">VIEW MORE</button>
                 </div>
             </section>
         </>

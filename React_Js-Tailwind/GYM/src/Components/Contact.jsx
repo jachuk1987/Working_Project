@@ -1,7 +1,7 @@
 import React, { useEffect } from "react";
 import { FaMapMarkedAlt, FaMapMarkerAlt } from "react-icons/fa";
 import { IoMdMail } from "react-icons/io";
-import { Iocall } from "react-icons/io5";
+import { IoCall } from "react-icons/io5";
 import AOS from "aos";
 import "aos/dist/aos.css";
 
@@ -35,14 +35,21 @@ const Contact = () => {
                                 <IoMdMail className="size-10 text-slate-400" />
                             </div>
                             <h1 className="text-2x1 text-slate-500 font-bold">Email Us</h1>
-                            <p className="text-center text-lg">121 Rock Street, 21 Avenue, New York, NY 92103-9000</p>
+                            <div className="flex flex-col justify-center items-center gap-1">
+                                <p className="text-center text-lg">jachu.k1212@gmail.com</p>
+                                <p className="text-center text-lg">jeswanth.k1987@gmail.com</p>
+                            </div>
                         </div>
                         <div data-aos="slide-up" data-aos-delay="400" className="p-10 bg-white flex flex-col justify-center items-center gap-4" >
                             <div className="border-2 border-slate-400 rounded-full p-4 transform hover:scale-105 transition-transform duration-300 cursor-pointer">
-                                <Iocall className="size-10 text-slate-400" />
+                                <IoCall className="size-10 text-slate-400" />
                             </div>
-                            <h1 className="text-2x1 text-slate-500 font-bold">Address</h1>
-                            <p className="text-center text-lg">121 Rock Street, 21 Avenue, New York, NY 92103-9000</p>
+                            <h1 className="text-2x1 text-slate-500 font-bold">Call Us</h1>
+                            <div className="flex flex-col justify-center items-center gap-1">
+                                <p className="text-center text-lg">+91 988 5058 859</p>
+                                <p className="text-center text-lg">+91 939 2064 446</p>
+                            </div>
+
                         </div>
                     </div>
                 </div>

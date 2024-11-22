@@ -77,6 +77,8 @@ const Header = () => {
                         <li key={path}>
                             <Link
                                 to={path}
+                                spy={true}
+                                offset={-100}
                                 smooth={true}
                                 duration={500}
                                 className="text-white uppercase font-semibold cursor-pointer p-3 rounded-lg hover:bg-red-600 hover:text-white w-full text-center"

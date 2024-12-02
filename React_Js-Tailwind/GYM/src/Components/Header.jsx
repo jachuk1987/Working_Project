@@ -91,10 +91,6 @@ const Header = () => {
                 </ul>
             </div>
 
-            {isMenuOpen && (
-        
-      )}
-
         </nav>
     );
 };

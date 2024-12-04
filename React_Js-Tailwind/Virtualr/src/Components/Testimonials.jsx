@@ -1,5 +1,5 @@
 import React from "react";
-import { testimonials } from "../constants";
+import { testimonials } from "../Constants";
 
 const Testimonials = () => {
   return (

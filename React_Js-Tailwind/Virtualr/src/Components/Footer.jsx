@@ -1,5 +1,5 @@
 import React from "react";
-import { resourcesLinks, platformLinks, communityLinks } from "../constants";
+import { resourcesLinks, platformLinks, communityLinks } from "../Constants/Constants";
 const Footer = () => {
   return (
     <footer className="mt-20 border-t py-10 border-neutral-700">

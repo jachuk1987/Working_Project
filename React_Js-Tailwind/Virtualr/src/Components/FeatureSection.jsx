@@ -1,5 +1,5 @@
 import React from "react";
-import { features } from "../Constants";
+import { features } from "../Constants/Constants";
 
 const FeatureSection = () => {
   return (

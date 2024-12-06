@@ -3,7 +3,7 @@ import img1 from "../assets/img/dest1.jpg";
 import img2 from "../assets/img/dest2.jpg";
 import img3 from "../assets/img/dest3.jpg";
 
-import DestinationCard from "../layouts/DestinationCard";
+import DestinationCard from "../Layouts/DestinationCard";
 
 const Destination = () => {
   return (

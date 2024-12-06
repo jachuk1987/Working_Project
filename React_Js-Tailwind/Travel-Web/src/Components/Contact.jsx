@@ -1,6 +1,6 @@
 import React from "react";
 import img from "../assets/img/contact.jpg";
-import Button from "../layouts/Button";
+import Button from "../Layouts/Button";
 
 const Contact = () => {
   const backgroundColor = `bg-brightColor`;
